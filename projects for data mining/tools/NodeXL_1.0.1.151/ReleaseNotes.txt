@@ -1,0 +1,4 @@
+
+NodeXL Release Notes, Version 1.0.1.151 (2010-10-06)
+
+* Bug fix: If you calculated certain graph metrics using NodeXL, Analysis, Graph Metrics, you would get an error message that included the text "[Win32Exception]: The application has failed to start because its side-by-side configuration is incorrect."

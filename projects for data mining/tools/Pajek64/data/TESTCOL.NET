@@ -1,0 +1,20 @@
+*Vertices      9
+     1 "a" ic Pink     bc Black
+     2 "b" ic Yellow   bc Cyan
+     3 "c" ic Cyan     bc Yellow
+     4 "d" ic Purple   bc Orange
+     5 "e" ic Orange   bc Brown
+     6 "f" ic Magenta  bc Green
+     7 "g" ic Brown    bc Magenta
+     8 "h" ic Red      bc Blue
+     9 "i" ic Green    bc Magenta
+*Arcs
+      1      2       1 c Blue
+      2      3       1 c Red
+      3      4       1 c Black
+      4      5       1 c Yellow 
+      5      6       1 c Gray
+      6      7       1 c Cyan
+      7      8       1 c Magenta 
+      8      9       1 c Purple
+      9      1       1 c Brown

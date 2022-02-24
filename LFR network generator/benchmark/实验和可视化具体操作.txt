@@ -1,0 +1,30 @@
+首先找到指定位置
+C:\Users\XuHongbin\Desktop\山西大学\科研训练\MyResearch\LFR基准网络生成程序\benchmark\benchmark\Debug
+
+接着打开cmd
+cd C:\Users\XuHongbin\Desktop\山西大学\科研训练\MyResearch\LFR基准网络生成程序\benchmark\benchmark\Debug
+
+然后输入 benchmark.exe + 指定参数
+
+参数：
+benchmark [FLAG] [P] [FLAG] [P]
+-N        number of nodes   节点数 
+-k        average degree     平均度（大多数大规模真实社会网络的平均值在10左右）
+-maxk     maximum degree   最大度数
+-mu       mixing parameter    社团内部链接强度系数，值越大，链接越弱
+-t1       minus exponent for the degree sequence    节点度的幂律分布指数
+-t2       minus exponent for the community size distribution    社团尺寸的幂律分布指数
+-minc     minimum for the community sizes    社团尺寸大小下限
+-maxc     maximum for the community sizes   社团尺寸大小上限
+-on       number of overlapping nodes      重叠节点占比
+-om       number of memberships of the overlapping nodes   重叠节点的社团隶属数
+-C        average clustering coefficient   平均聚类系数
+
+样例：
+# 生成样例基准网络
+benchmark.exe -N 1000 -k 15 -maxk 50 -mu 0.1 -minc 20 -maxc 50
+
+
+先添加节点（包括标签）、再添加边数据
+点击自动填充列，选择按照节点标签填充，点击确定
+再迭代布局算法

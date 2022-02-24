@@ -1,0 +1,12 @@
+*Vertices      4
+      1 "Andrej"   0.1201    0.2849    0.5000   ellipse URL "http://mrvar.fdv.uni-lj.si" fos 20
+      2 "Vlado"    0.8188    0.2458    0.5000   box URL "http://vlado.fmf.uni-lj.si"
+      3 "Pajek"    0.3688    0.7792    0.5000   diamond URL  "http://vlado.fmf.uni-lj.si/pub/networks/pajek"
+      4 "Book"     0.8359    0.8333    0.5000   triangle URL "http://www.cambridge.org/uk/catalogue/catalogue.asp?isbn=0521602629"
+*Edges
+1 2
+1 3
+1 4
+2 3
+2 4
+3 4

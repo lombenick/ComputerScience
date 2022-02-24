@@ -1,0 +1,22 @@
+When reading Ore graph
+with Options/ReadWrite/ Ore: 1-Male, 2-Female links
+the following relations are generated:
+
+ 1 - father of
+ 2 - mother of
+ 3 - spouse of
+
+The rest can be obtained by running the macros:
+
+ 4 - parent of
+ 5 - child of 
+ 6 - son of
+ 7 - daughter of
+ 8 - husband of
+ 9 - wife of
+10 - sibling of
+11 - brother of
+12 - sister of
+13 - uncle of
+14 - aunt of
+15 - semisibling of

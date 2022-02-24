@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Session Name="D:\My Works\Projects\Cplus\benchmark\benchmark\benchmark.workspace">
+  <int Value="0" Name="m_selectedTab"/>
+  <wxString Value="D:\My Works\Projects\Cplus\benchmark\benchmark\benchmark.workspace" Name="m_workspaceName"/>
+  <TabInfoArray Name="TabInfoArray">
+    <TabInfo>
+      <wxString Value="D:\My Works\Projects\Cplus\benchmark\benchmark\benchmark\main.cpp" Name="FileName"/>
+      <int Value="1827" Name="FirstVisibleLine"/>
+      <int Value="1832" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+  </TabInfoArray>
+  <SerializedObject Name="m_breakpoints">
+    <long Value="0" Name="Count"/>
+  </SerializedObject>
+</Session>
