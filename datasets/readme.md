@@ -1,0 +1,1 @@
+This folder is used to put the face datasets,the form of datasets refers to CASIA WebFace.
