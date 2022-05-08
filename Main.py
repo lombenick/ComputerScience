@@ -84,12 +84,12 @@ def main(*optional, model_option='inception', func='predict') -> None:
 #     main(main_ui.parentWindow(), 'C:/Users/XuHongbin/Downloads/Mobilenetep015.h5', 'D:/毕设/人脸识别/images/camera_0.jpg',
 #         'D:/毕设/人脸识别/images/kevin.jpg', model_option='Mobilenet', func='verify')
 
-if __name__ == '__main__':
-    from PyQt5.QtWidgets import QApplication
-    app = QApplication(sys.argv)
-    model_option, model_weights, dataset_path, log_path, num_worker, learning_rate, batch_size, freeze_flag = \
-        'VGG', '', 'D:/毕设/人脸识别/datasets/CASIA-WebFace', 'D:/毕设/OpenAix/logs', 1, 0.001, 32, False
-    main(main_ui.parentWindow(), model_option, model_weights, dataset_path, log_path, num_worker, learning_rate, batch_size, freeze_flag, 
-        model_option, func='train')
+# if __name__ == '__main__':
+#     from PyQt5.QtWidgets import QApplication
+#     app = QApplication(sys.argv)
+#     model_option, model_weights, dataset_path, log_path, num_worker, learning_rate, batch_size, freeze_flag = \
+#         'VGG', '', 'D:/毕设/人脸识别/datasets/CASIA-WebFace', 'D:/毕设/OpenAix/logs', 1, 0.001, 32, False
+#     main(main_ui.parentWindow(), model_option, model_weights, dataset_path, log_path, num_worker, learning_rate, batch_size, freeze_flag, 
+#         model_option, func='train')
 # C:/Users/XuHongbin/Downloads/Mobilenetep011-loss1.078-val_loss2.035.h5
 # D:/毕设/人脸识别/model_data/facenet_mobilenet.h5
