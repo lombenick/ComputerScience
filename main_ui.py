@@ -416,7 +416,7 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     window = parentWindow()
     window.setWindowTitle('OpenAix Viewer')
-    apply_stylesheet(app, theme='dark_amber.xml', invert_secondary=True)
+    apply_stylesheet(app, theme='dark_amber.xml')
 
     window.show()
     sys.exit(app.exec_())
